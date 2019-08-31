@@ -146,12 +146,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="codestandards.cpp" />
+    <ClCompile Include="C:\Users\Alexander\Downloads\sqlite-amalgamation-3290000\sqlite-amalgamation-3290000\sqlite3.c" />
+    <ClCompile Include="commoncode.cpp" />
     <ClCompile Include="Dividend Yield Tracker.cpp" />
     <ClCompile Include="Stock.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="codestandards.h" />
+    <ClInclude Include="C:\Users\Alexander\Downloads\sqlite-amalgamation-3290000\sqlite-amalgamation-3290000\sqlite3.h" />
+    <ClInclude Include="commoncode.h" />
     <ClInclude Include="Stock.h" />
   </ItemGroup>
   <ItemGroup>

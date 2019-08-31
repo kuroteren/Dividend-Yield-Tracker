@@ -20,6 +20,7 @@ constexpr auto VERSION_BLD = "1";
 
 //User includes
 #include "codestandards.h"
+#include "sqlite3.h"
 
 using namespace std;
 
@@ -30,7 +31,8 @@ int main()
 	->First run obviously has no previous data
 	->First run will instead make the database
 	*/
-
+	sqlite3 * dbMain;
+	sqlite3_open("dyt_main", &dbMain);
 
 	/*
 	Display initial screen
